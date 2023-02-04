@@ -13,3 +13,9 @@ git checkout -b test_branch //created a test_branch from commit 2
 git checkout bug-fix //switched to bug-fix branch to create new bug-fix-experimental branch
 
 Git checkout -b bug-fix-experimental //created and switched to bug-fix experimental branch
+
+Git add .
+Git commit git commit -m "commit 7 referencing commit 4"
+
+Git add .
+Git commit git commit -m "commit 8 referencing commit 7"
