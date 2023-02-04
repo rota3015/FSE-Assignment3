@@ -39,3 +39,12 @@ Git commit git commit -m "commit 8 referencing commit 7"
 Git add .
 Git commit git commit -m "commit 9 referencing commit 8"
 //// >>> bug-fix-experimental resolved conflicts
+
+Git checkout bug-fix // checking out to bug-fix branch
+Git merge bug-fix-experimental // merging the bug-fix-experimental into bug-fix and resolving conflicts
+Git add .
+Git commit -m "merge commit 11 referencing to commit 6 and commit 9"
+
+
+Git add .
+Git commit -m "commit 12 referencing to commit 11"
