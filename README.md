@@ -16,3 +16,9 @@ Git commit -m "commit 1 referring to commit 0"
 Git add .
 Git commit -m "commit 2 referring to commit 1"
 
+git checkout bug-fix //moved to bug-fix branch bug-fix experimental
+Git merge test_branch //merged the test_branch into bug-fix branch
+Git branch -D test_branch //deleted test_branch
+
+Git add .
+git commit -m "commit 6 referencing commit 5" 
