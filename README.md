@@ -19,3 +19,6 @@ Git commit git commit -m "commit 7 referencing commit 4"
 
 Git add .
 Git commit git commit -m "commit 8 referencing commit 7"
+
+Git add .
+Git commit git commit -m "commit 9 referencing commit 8"
